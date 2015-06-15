@@ -1,0 +1,43 @@
+﻿@model Imaginecupbox.Models.Aluno
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Aluno</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.idade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.idade)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sexo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sexo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
