@@ -6,12 +6,9 @@ using System.ComponentModel;
 
 namespace Imaginecupbox
 {
-    public class Turma
+    public class Aula
     {
-
-        
-
-        public String sala
+        public Texto Texto
         {
             get
             {
@@ -22,7 +19,7 @@ namespace Imaginecupbox
             }
         }
 
-        public Imaginecupbox.Models.Aluno Aluno
+        public Conteudo Conteudo
         {
             get
             {

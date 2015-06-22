@@ -8,5 +8,15 @@ namespace Imaginecupbox
 {
     public class Professor
     {
+        public string nome
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

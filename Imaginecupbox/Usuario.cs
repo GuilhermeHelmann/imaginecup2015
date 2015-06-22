@@ -6,7 +6,7 @@ using System.ComponentModel;
 
 namespace Imaginecupbox
 {
-    public class Disciplina
+    public class Usuario
     {
     }
 }
