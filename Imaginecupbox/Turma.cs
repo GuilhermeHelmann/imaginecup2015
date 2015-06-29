@@ -10,7 +10,7 @@ namespace Imaginecupbox
     {
 
         
-        //Isto eh um comentario de teste
+
         public String sala
         {
             get
