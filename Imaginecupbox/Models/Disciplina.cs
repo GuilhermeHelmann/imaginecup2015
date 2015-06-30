@@ -4,14 +4,11 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.ComponentModel;
 
-namespace Imaginecupbox
+namespace Imaginecupbox.Models
 {
-    public class Turma
+    public class Disciplina
     {
-
-        
-
-        public String sala
+        public int id
         {
             get
             {
@@ -22,7 +19,18 @@ namespace Imaginecupbox
             }
         }
 
-        public Imaginecupbox.Models.Aluno Aluno
+        public string nome
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public Professor Professor
         {
             get
             {

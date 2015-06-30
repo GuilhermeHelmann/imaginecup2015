@@ -4,9 +4,9 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.ComponentModel;
 
-namespace Imaginecupbox
+namespace Imaginecupbox.Models
 {
-    public class Texto
+    public class Escola
     {
     }
 }
